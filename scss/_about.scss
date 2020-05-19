@@ -1,0 +1,26 @@
+.profile {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+.about_content {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    @include tab {
+        font-size: 1.3rem;
+    }
+    @include sp {
+        margin-top: 30px;
+        font-size: 1.2rem;
+        text-align: center;
+        height: 130px;
+    }
+}
